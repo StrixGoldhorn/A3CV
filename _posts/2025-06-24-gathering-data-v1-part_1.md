@@ -1,3 +1,7 @@
+---
+layout: default
+title:  "Gathering Data v1 Part 1"
+---
 # Gathering Data v1 Part 1
 
 First, lets decide on what we need.
