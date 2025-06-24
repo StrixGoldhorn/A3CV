@@ -26,4 +26,4 @@ Below is just a bunch of posts, explaining my thought process as well as parts o
 ### Step 1: Gather Data
 To train the CV model, we have to gather data. This means getting images and drawing bounding boxes around objects of interest. However, as we are using a game, we can use the scripting/modding support to help us gather these data, instead of manually having to label the images.
 
-[Gathering Data v1 Part 1](A3CV\2025\06\24\gathering-data-v1-part-1.md)
+[Gathering Data v1 Part 1](2025/06/24/gathering-data-v1-part-1)
