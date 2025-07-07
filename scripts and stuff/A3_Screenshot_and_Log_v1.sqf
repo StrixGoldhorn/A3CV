@@ -1,6 +1,6 @@
 BBOverlay_GlobalVariable = false;
 BBLineWidth_GlobalVariable = 20;
-DetectionRange_GlobalVariable = 500;
+DetectionRange_GlobalVariable = 100;
 
 (findDisplay 46) displaySetEventHandler ["KeyDown", "_this call MY_KEYDOWN_FNC;
 "];
@@ -52,10 +52,17 @@ MY_KEYUP_FNC = {
 
 ScanAndSaveScene = {
 	systemChat str("Start " + str(diag_tickTime));
-	diag_log str("---START-CV-DATA-FRAME---");
 	0 spawn {
-		screenshot "test.png";
+		private _currentTime = systemTime apply {if (_x < 10) then {"0" + str _x} else {str _x}};
+		private _currentTimeStr = "";
+		_currentTime apply {_currentTimeStr = _currentTimeStr + _x};
+		
+		diag_log str("---START-CV-DATA-FRAME---");
+		private _saveSSName = _currentTimeStr + ".png";
+		// screenshot "test.png";
+		screenshot _saveSSName;
 		systemChat "Screenshot taken!";
+		systemChat _saveSSName;
 		{
 			private _convertedCoords = [(_x select 4), (_x select 0), (_x select 1)] call GetLargestAndSmallestXYOnScreen;
 			// if _convertedCoords is a bool (aka it returned false), means is not on screen, so we skip it
@@ -64,11 +71,11 @@ ScanAndSaveScene = {
 				private _convertedymin = _convertedCoords select 1;
 				private _convertedxmax = _convertedCoords select 2;
 				private _convertedymax = _convertedCoords select 3;
-				diag_log str(str(_x select 1) + "|" + str (_convertedxmin) + "|" + str (_convertedymin) + "|" + str (_convertedxmax) + "|" + str (_convertedymax));
+				diag_log str(str(_x select 1) + "|" + str (_convertedxmin) + "|" + str (_convertedymin) + "|" + str (_convertedxmax) + "|" + str (_convertedymax) + "|" + str (_currentTimeStr));
 			};
 		} forEach (cameraOn nearTargets DetectionRange_GlobalVariable); // distance in meters
+		diag_log str("---END-CV-DATA-FRAME---");
 	};
-	diag_log str("---START-CV-DATA-FRAME---");
 	systemChat str("End " + str(diag_tickTime));
 };
 
