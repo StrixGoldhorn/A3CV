@@ -11,6 +11,17 @@ The usage of video games allows for the ease of gathering data in:
 
 Apart from that, labelling of the data with the help of in-game code may take up less time compared to manually labelling each image.
 
+## Goals
+Goal of this small project will be to input a video of a convoy of vehicles in an urban environment (we will use footage of mobile column for NDP), feed it into the model, and get an output that tracks where the vehicles are.
+
+To do this, we will break it down to smaller steps:
+1. Train a model (using a mix of synthetic and real data) capable of detecting images of common military ground vehicles
+2. Test against extremely similar data (images taken at same place as training data)
+3. Test against similar images taken from roadside (gathered via social media)
+4. Test against videos taken from roadside (mix of data from ownself and social media)
+
+In short, this is to shift this POC from TRL 3 to TRL 5.
+
 ## Why Arma 3?
 Arma 3 has been a staple of the milsim gaming community, with various mods adding different variations of vehicles, weapons, etc.
 
