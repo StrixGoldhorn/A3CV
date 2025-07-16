@@ -26,6 +26,8 @@ We need:
 - a way to take a screenshot
 - a way to tag the locations gathered, to the screenshot taken
 
+<br/><br/><br/>
+
 ### Gathering nearby objects and its location
 
 We can make use of the function `nearTargets`, where it returns an array of objects within a user-defined range (in the code below, `DetectionRange_GlobalVariable` is the variable for this range). The following code will write all the nearby targets as a hint. Part of the returned array is the object location in the game world. This will be useful later.
@@ -45,6 +47,8 @@ HintNearbyTargets = {
     hint _outputstr;
 };
 ```
+
+<br/><br/><br/>
 
 ### Convert world position to screen position, and check whether object is on screen
 

@@ -14,6 +14,8 @@ In this post, we will cover:
 - a way to take a screenshot
 - a way to tag the locations gathered, to the screenshot taken
 
+<br/><br/><br/>
+
 ### Getting an object's bounding box
 
 We can make use of the function `boundingBoxReal`, where it returns an array of `[[xmin, ymin, zmin], [xmax, ymax, zmax], boundingSphereRadius]`. As the coordinates for `[xmin, ymin, zmin], [xmax, ymax, zmax]` are relative to the object's own position, it is slightly more difficult to implement. As such, a simple method of getting the bounding box, would be to use the object position and add `boundingSphereRadius` to all directions. The code below draws the bounding box using the simple (but inaccurate) method.
@@ -115,6 +117,8 @@ Finally, using the edges, we can draw the bounding box on in-game.
 	drawLine3D [_start, _end, [1, 0, 0, BBLineWidth_GlobalVariable]]; // Red lines
 } forEach _edges;
 ```
+
+<br/><br/><br/>
 
 ### Getting extreme coordinates of bounding box
 
@@ -291,8 +295,12 @@ After which, we iterate through each corner, convert it to screen coords, and ke
 } forEach _corners;
 ```
 
+<br/><br/><br/>
+
 ### Screenshot
 To take a screenshot of the current scene, we can call `screenshot`. This saves it to the profile's screenshot folder. It is important to note that there is a default folder size limit of 250MB, which can be changed by adding `maxScreenShotFolderSizeMB = 2000; // 2 GB` to the end of the profile file.
+
+<br/><br/><br/>
 
 ### Tagging logs to screenshots
 Screenshots can have a custom name. As such, we use the timestamp to tag each log to the screenshot. At the time of capture, the timestamp is generated. This is used to name the screenshot image, as well as to tag each log.
