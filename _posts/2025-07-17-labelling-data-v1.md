@@ -16,6 +16,8 @@ We will be referring to the file [ExtractAndDraw.py](https://github.com/StrixGol
 
 **DISCLAIMER**: I am aware that using f-strings to generate a filepath is not a good practive. But this is your own data that you input, so just don't fill in anything dumb and you should be good to go.
 
+<br/><br/><br/>
+
 ### YOLO data format
 
 YOLO expects training data to be provided as such:
@@ -78,6 +80,8 @@ Each label file should be in the format:
 ```
 
 Each row is in the format `class x_center y_center width height`, with `x_center y_center width height` being normalized.
+
+<br/><br/><br/>
 
 ### Reading and extracting data from the ARMA log file in python
 
