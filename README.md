@@ -45,3 +45,6 @@ To train the CV model, we have to gather data. This means getting images and dra
 Now that we have the both the image and the log file, we need to generate a YOLO-formatted file for each image.
 
 - [Labelling Data v1](2025/07/17/labelling-data-v1)
+
+### Results v1
+- [Results v1](2025/07/20/results-v1)
