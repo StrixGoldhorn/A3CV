@@ -348,8 +348,8 @@ End result of the bounding box drawn will look something like this.
 
 
 ![](
-https://raw.githubusercontent.com/StrixGoldhorn/A3CV/refs/heads/main/_posts/assets/gathering-data-v1-part-2/BB Drawn/20250705231520851.png)
+https://raw.githubusercontent.com/StrixGoldhorn/A3CV/refs/heads/main/_posts/assets/gathering-data-v1-part-2/BB%20Drawn/20250705231520851.png)
 
 
 ![](
-https://raw.githubusercontent.com/StrixGoldhorn/A3CV/refs/heads/main/_posts/assets/gathering-data-v1-part-2/BB Drawn/20250705231519828.png)
+https://raw.githubusercontent.com/StrixGoldhorn/A3CV/refs/heads/main/_posts/assets/gathering-data-v1-part-2/BB%20Drawn/20250705231519828.png)
