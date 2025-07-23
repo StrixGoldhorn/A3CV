@@ -9,6 +9,7 @@ Messing around with computer vision within Arma 3
     - [Step 1: Gather Data](#step-1-gather-data)
     - [Step 2: Label Data](#step-2-label-data)
     - [Results v1](#results-v1)
+    - [Step 3: Re-gather Data](#step-2-label-data)
 
 <br/><br/><br/>
 
@@ -65,3 +66,8 @@ Now that we have the both the image and the log file, we need to generate a YOLO
 
 ### Results v1
 - [Results v1](2025/07/20/results-v1)
+
+### Step 3: Re-gather Data
+We made some improvements to the bounding box, such that it will cover the rest of the vehicle.
+
+- [Gathering Data v2](2025/07/23/gathering-data-v2)
