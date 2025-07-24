@@ -56,10 +56,10 @@ This was the only significant change made to the code.
 https://raw.githubusercontent.com/StrixGoldhorn/A3CV/refs/heads/main/_posts/assets/gathering-data-v2/20250721124449296.png)
 
 ![](
-https://raw.githubusercontent.com/StrixGoldhorn/A3CV/refs/heads/main/_posts/assets/gathering-data-v2/20250721124449296.png)
+https://raw.githubusercontent.com/StrixGoldhorn/A3CV/refs/heads/main/_posts/assets/gathering-data-v2/20250721124447179.png)
 
 ![](
 https://raw.githubusercontent.com/StrixGoldhorn/A3CV/refs/heads/main/_posts/assets/gathering-data-v2/BB%20Drawn/20250721124449296.png)
 
 ![](
-https://raw.githubusercontent.com/StrixGoldhorn/A3CV/refs/heads/main/_posts/assets/gathering-data-v2/BB%20Drawn/20250721124449296.png)
+https://raw.githubusercontent.com/StrixGoldhorn/A3CV/refs/heads/main/_posts/assets/gathering-data-v2/BB%20Drawn/20250721124447179.png)
