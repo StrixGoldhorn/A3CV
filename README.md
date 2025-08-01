@@ -11,7 +11,7 @@ Messing around with computer vision within Arma 3
 
 - [Background](#background)
 - [Goals](#goals)
-- [Potential use-cases]
+- [Potential use-cases](#potential-use-cases)
 - [Why Arma 3?](#why-arma-3)
 
 <br/><br/><br/>
@@ -79,6 +79,11 @@ While operators currently have to monitor the drone feed to detect enemy vehicle
 Similarly, cameras can be set along MSRs to monitor vehicular movement. Running the video feed through an object detection model will allow for automatic classification of vehicles, which can be used by analysts to formulate possible hostile actions and intent.
 
 However, the challenge will be setting up the cameras as well as exfiltrating the video feed through a possibly EW-contested region.
+
+### I would definitely never ever suggest the implementation of detection algorithm in autonomous weapons
+I would definitely never ever suggest the implementation of detection models in autonomous weapons (drones, RWS, etc.) to aid in the autonomous detection and classification of targets. Tracking can also hypothetically be implemented. This can very hypothetically help in the decision and "ranking" of targets in the visible field of view of the autonomous weapon, theoretically allowing it to target what the user defines as a higher priority target.
+
+But I would definitely never ever endorse the usage of detection models in this use case (wink wink).
 
 <br/><br/><br/>
 
