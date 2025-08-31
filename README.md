@@ -2,17 +2,22 @@
 Messing around with computer vision within Arma 3
 
 ## Table of Contents
-- [DEVLOG](#devlog)
+- [A3CV](#a3cv)
+  - [Table of Contents](#table-of-contents)
+  - [DEVLOG](#devlog)
     - [Step 1: Gather Data](#step-1-gather-data)
     - [Step 2: Label Data](#step-2-label-data)
     - [Results v1](#results-v1)
-    - [Step 3: Re-gather Data](#step-2-label-data)
+    - [Step 3: Re-gather Data](#step-3-re-gather-data)
     - [Results v2](#results-v2)
-
-- [Background](#background)
-- [Goals](#goals)
-- [Potential use-cases](#potential-use-cases)
-- [Why Arma 3?](#why-arma-3)
+    - [Results v3](#results-v3)
+  - [Background](#background)
+  - [Goals](#goals)
+  - [Potential use-cases](#potential-use-cases)
+    - [Roadside FPV ambush](#roadside-fpv-ambush)
+    - [Reconnaisance](#reconnaisance)
+    - [I would definitely never ever suggest the implementation of detection algorithm in autonomous weapons](#i-would-definitely-never-ever-suggest-the-implementation-of-detection-algorithm-in-autonomous-weapons)
+  - [Why Arma 3?](#why-arma-3)
 
 <br/><br/><br/>
 
@@ -41,6 +46,9 @@ We made some improvements to the bounding box, such that it will cover the rest 
 
 ### Results v2
 - [Results v2](2025/07/30/results-v2)
+
+### Results v3
+- [Results v3](2025/08/31/results-v3)
 
 <br/><br/><br/>
 
